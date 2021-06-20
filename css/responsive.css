@@ -1,0 +1,729 @@
+@media( min-width: 320px) and ( max-width: 575px){
+    /* -------------nav Start-------------- */
+    nav button i{
+        color: #fff;
+    }
+    nav ul li {
+        text-align: center;
+        background: #000;
+    }
+    nav ul li a {
+        margin-left: 0px;
+    }
+    nav ul li a::after {
+        display: none;
+    }
+     /* -------------nav end-------------- */
+     /* -------------banner start-------------- */
+     #banner-part .overlay{
+        padding: 140px 0;
+     }
+     #banner-part .overlay h2 {
+        font-size: 20px;
+     }
+     #banner-part .overlay h1 {
+        font-size: 40px;
+    }
+    #banner-part .overlay a {
+        margin: 0px 4px 0 10px;
+    }
+    #banner-part .prevrt {
+        top: 80%;
+        left: 100px;
+    }
+    #banner-part .nextr {
+        top: 80%;
+        right: 100px;
+    }
+     /* -------------banner end-------------- */
+     /* -------------about start-------------- */
+     .title p {
+        width: auto;
+    }
+    .title h2 {
+        margin-top: 30px;
+    }
+    #about-part .item1 p {
+        width: auto;
+        padding: 0 0px;
+        padding-bottom: 0px;
+    }
+    #about-part .item1::after {
+        display: none;
+    }
+    #about-part .item1 i {
+        display: none;
+    }
+    #about-part .round {
+        display: none;
+    }
+    #about-part .item2 {
+        text-align: center;
+    }
+    #about-part .item2::after {
+        display: none;
+    }
+    #about-part .item2 p {
+        width: auto;
+         margin-left: auto;
+    }
+    #about-part .item2 {
+        margin-top: 0px;
+    }
+    #about-part .item3 {
+        text-align: center;
+    }
+    #about-part .item3 p {
+        width: auto;
+    }
+    #about-part .item3::after {
+        display: none;
+    }
+    #about-part .item4 i {
+        display: none;
+    }
+    #about-part .item4::after {
+        display: none;
+    }
+     /* -------------about end-------------- */
+     /* -------------port start-------------- */
+     #port-part {
+         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #port-part .overlay {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 100px 0px;
+    }
+    #port-part .title h2 {
+        font-size: 30px;
+    }
+    #port-part .item {
+        margin-left: 0px; 
+    }
+     /* -------------port end-------------- */
+     /* -------------service start-------------- */
+     #service-part .line {
+         display: none;
+    }
+    #service-part .service {
+        flex-direction: column;
+    }
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+    }
+    #service-part .service .non::after {
+        display: none;
+    }
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+    #service-part .service .title h2 {
+        margin-top: 20px;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .service .img {
+        width: 100%;
+        margin-top: 90px;
+    }
+    #service-part .service .details {
+        width: 100%;
+        padding: 25px;
+        width: auto;
+        margin-top: 46px;
+    }
+    #service-part .service .ton::after {
+        display: none;
+    }
+     /* -------------service end-------------- */
+     /* -------------testi start-------------- */
+     #testi-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #testi-part .next {
+        z-index: 999;
+        bottom: -25px;
+    }
+    #testi-part .prev {
+        top: -25px;
+    }
+    #testi-part .overlay {
+        padding: 74px 0;
+    }
+     #testi-part .line {
+         display: none;
+    }
+    #testi-part .details {
+        margin-top: 59px;
+        margin-left: 7px;
+        padding: 0;
+    }
+    #testi-part .details::after {
+        display: none;
+    }
+    #testi-part .details p {
+        width: auto;
+    }
+     /* -------------testi end-------------- */
+     /* -------------price start-------------- */
+     /* -------------price end-------------- */
+     /* -------------counter start-------------- */
+     #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #counter-part .roate {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item h2 {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item p {
+        transform: rotate(0deg);
+        font-size: 14px;
+    }
+    #counter-part .overlay .item {
+        margin-top: 20px;
+    }
+     /* -------------counter end-------------- */
+     /* -------------team  start-------------- */
+     /* -------------team  end-------------- */
+     /* -------------sponsor  start-------------- */
+     #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 31px 0;
+    }
+    #sponsor-part .rotater {
+        transform: rotate(0deg);
+    }
+     /* -------------sponsor  end-------------- */
+     /* -------------footer  start-------------- */
+     footer .logo {
+        transform: rotate(0deg);
+    }
+    footer .logo img {
+        transform: rotate(0deg);
+    }
+    footer .details .item {
+        border-right: none;
+        margin-top: 22px;
+    }
+    #sponsor-part .sponsor .border img {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+     /* -------------footer  end-------------- */
+}
+@media( min-width: 576px) and ( max-width: 767px){
+    /* -------------nav Start-------------- */
+    nav button i{
+        color: #fff;
+    }
+    nav ul li {
+        text-align: center;
+        background: #000;
+    }
+    nav ul li a {
+        margin-left: 0px;
+    }
+    nav ul li a::after {
+        display: none;
+    }
+     /* -------------nav end-------------- */
+     /* -------------banner start-------------- */
+     #banner-part .overlay{
+        padding: 140px 0;
+     }
+     #banner-part .overlay h2 {
+        font-size: 20px;
+     }
+     #banner-part .overlay h1 {
+        font-size: 40px;
+    }
+    #banner-part .overlay a {
+        margin: 0px 4px 0 10px;
+    }
+    #banner-part .prevrt {
+        top: 80%;
+        left: 100px;
+    }
+    #banner-part .nextr {
+        top: 80%;
+        right: 100px;
+    }
+     /* -------------banner end-------------- */
+     /* -------------about start-------------- */
+     .title p {
+        width: auto;
+    }
+    .title h2 {
+        margin-top: 30px;
+    }
+    #about-part .item1 p {
+        width: auto;
+        padding: 0 0px;
+        padding-bottom: 0px;
+    }
+    #about-part .item1::after {
+        display: none;
+    }
+    #about-part .item1 i {
+        display: none;
+    }
+    #about-part .round {
+        display: none;
+    }
+    #about-part .item2 {
+        text-align: center;
+    }
+    #about-part .item2::after {
+        display: none;
+    }
+    #about-part .item2 p {
+        width: auto;
+         margin-left: auto;
+    }
+    #about-part .item2 {
+        margin-top: 0px;
+    }
+    #about-part .item3 {
+        text-align: center;
+    }
+    #about-part .item3 p {
+        width: auto;
+    }
+    #about-part .item3::after {
+        display: none;
+    }
+    #about-part .item4 i {
+        display: none;
+    }
+    #about-part .item4::after {
+        display: none;
+    }
+     /* -------------about end-------------- */
+     /* -------------port start-------------- */
+     #port-part {
+         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #port-part .overlay {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 100px 0px;
+    }
+    #port-part .title h2 {
+        font-size: 30px;
+    }
+    #port-part .item {
+        margin-left: 0px; 
+    }
+     /* -------------port end-------------- */
+     /* -------------service start-------------- */
+     #service-part .line {
+         display: none;
+    }
+    #service-part .service {
+        flex-direction: column;
+    }
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+    }
+    #service-part .service .non::after {
+        display: none;
+    }
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+    #service-part .service .title h2 {
+        margin-top: 20px;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .service .img {
+        width: 100%;
+        margin-top: 90px;
+    }
+    #service-part .service .details {
+        width: 100%;
+        padding: 25px;
+        width: auto;
+        margin-top: 46px;
+    }
+    #service-part .service .ton::after {
+        display: none;
+    }
+     /* -------------service end-------------- */
+     /* -------------testi start-------------- */
+     #testi-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #testi-part .next {
+        z-index: 999;
+        bottom: -25px;
+    }
+    #testi-part .prev {
+        top: -25px;
+    }
+    #testi-part .overlay {
+        padding: 74px 0;
+    }
+     #testi-part .line {
+         display: none;
+    }
+    #testi-part .details {
+        margin-top: 59px;
+        margin-left: 7px;
+        padding: 0;
+    }
+    #testi-part .details::after {
+        display: none;
+    }
+    #testi-part .details p {
+        width: auto;
+    }
+     /* -------------testi end-------------- */
+     /* -------------price start-------------- */
+     /* -------------price end-------------- */
+     /* -------------counter start-------------- */
+     #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #counter-part .roate {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item h2 {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item p {
+        transform: rotate(0deg);
+        font-size: 14px;
+    }
+    #counter-part .overlay .item {
+        margin-top: 20px;
+    }
+     /* -------------counter end-------------- */
+     /* -------------team  start-------------- */
+     /* -------------team  end-------------- */
+     /* -------------sponsor  start-------------- */
+     #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 31px 0;
+    }
+    #sponsor-part .rotater {
+        transform: rotate(0deg);
+    }
+     /* -------------sponsor  end-------------- */
+     /* -------------footer  start-------------- */
+     footer .logo {
+        transform: rotate(0deg);
+    }
+    footer .logo img {
+        transform: rotate(0deg);
+    }
+    footer .details .item {
+        border-right: none;
+        margin-top: 22px;
+    }
+    #sponsor-part .sponsor .border img {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+     /* -------------footer  end-------------- */
+}
+@media( min-width: 768px) and ( max-width: 991px){
+    /* -------------nav Start-------------- */
+    nav button i{
+        color: #fff;
+    }
+    nav ul li {
+        text-align: center;
+        background: #000;
+    }
+    nav ul li a {
+        margin-left: 0px;
+    }
+    nav ul li a::after {
+        display: none;
+    }
+     /* -------------nav end-------------- */
+     /* -------------banner start-------------- */
+     #banner-part .overlay{
+        padding: 140px 0;
+     }
+     #banner-part .overlay h2 {
+        font-size: 20px;
+     }
+     #banner-part .overlay h1 {
+        font-size: 40px;
+    }
+    #banner-part .overlay a {
+        margin: 0px 4px 0 10px;
+    }
+     /* -------------banner end-------------- */
+     /* -------------about start-------------- */
+     .title p {
+        width: auto;
+    }
+    .title h2 {
+        margin-top: 30px;
+    }
+    #about-part .item1 p {
+        width: auto;
+        padding: 0 0px;
+        padding-bottom: 0px;
+    }
+    #about-part .item1::after {
+        display: none;
+    }
+    #about-part .item1 i {
+        display: none;
+    }
+    #about-part .round {
+        display: none;
+    }
+    #about-part .item2 {
+        text-align: center;
+    }
+    #about-part .item2::after {
+        display: none;
+    }
+    #about-part .item2 p {
+        width: auto;
+         margin-left: auto;
+    }
+    #about-part .item2 {
+        margin-top: 0px;
+    }
+    #about-part .item3 {
+        text-align: center;
+    }
+    #about-part .item3 p {
+        width: auto;
+    }
+    #about-part .item3::after {
+        display: none;
+    }
+    #about-part .item4 i {
+        display: none;
+    }
+    #about-part .item4::after {
+        display: none;
+    }
+     /* -------------about end-------------- */
+     /* -------------port start-------------- */
+     #port-part {
+         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #port-part .overlay {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 100px 0px;
+    }
+    #port-part .title h2 {
+        font-size: 30px;
+    }
+    #port-part .item {
+        margin-left: 0px; 
+    }
+
+     /* -------------port end-------------- */
+     /* -------------service start-------------- */
+     #service-part .line {
+         display: none;
+    }
+    #service-part .service {
+        flex-direction: column;
+    }
+    #service-part .service:nth-child(2n+1) {
+        flex-direction: column;
+    }
+    #service-part .service .non::after {
+        display: none;
+    }
+    #service-part .service .title {
+        width: 100%;
+        justify-content: center;
+    }
+    #service-part .service .title h2 {
+        margin-top: 20px;
+    }
+    #service-part .service:nth-child(2n+1) .title {
+        justify-content: center;
+    }
+    #service-part .service .img {
+        width: 100%;
+        margin-top: 90px;
+    }
+    #service-part .service .details {
+        width: 100%;
+        padding: 25px;
+        width: auto;
+        margin-top: 46px;
+    }
+    #service-part .service .ton::after {
+        display: none;
+    }
+     /* -------------service end-------------- */
+     /* -------------testi start-------------- */
+     #testi-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #testi-part .next {
+        z-index: 999;
+        bottom: -25px;
+    }
+    #testi-part .prev {
+        top: -25px;
+    }
+    #testi-part .overlay {
+        padding: 74px 0;
+    }
+     #testi-part .line {
+         display: none;
+    }
+    #testi-part .details {
+        margin-top: 59px;
+        margin-left: 7px;
+        padding: 0;
+    }
+    #testi-part .details::after {
+        display: none;
+    }
+    #testi-part .details p {
+        width: auto;
+    }
+    #about-part .item2 i {
+        display: none;
+    }
+    #about-part .item3 i {
+        display: none;
+    }
+     /* -------------testi end-------------- */
+     /* -------------price start-------------- */
+     /* -------------price end-------------- */
+     /* -------------counter start-------------- */
+     #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #counter-part .roate {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item h2 {
+        transform: rotate(0deg);
+    }
+    #counter-part .overlay .item p {
+        transform: rotate(0deg);
+        font-size: 12px;
+    }
+    #counter-part .overlay .item {
+        margin-top: 20px;
+    }
+     /* -------------counter end-------------- */
+     /* -------------team  start-------------- */
+     /* -------------team  end-------------- */
+     /* -------------sponsor  start-------------- */
+     #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 31px 0;
+    }
+    #sponsor-part .rotater {
+        transform: rotate(0deg);
+    }
+    #sponsor-part .sponsor .border img {
+        width: 100% !important;
+        height: auto;
+    }
+     /* -------------sponsor  end-------------- */
+     /* -------------footer  start-------------- */
+     footer .logo {
+        transform: rotate(0deg);
+    }
+    footer .logo img {
+        transform: rotate(0deg);
+    }
+    footer .details .item {
+        border-right: none;
+        margin-top: 22px;
+    }
+    #sponsor-part .sponsor .border img {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+     /* -------------footer  end-------------- */
+}
+@media( min-width: 922px) and ( max-width: 1199px){
+    /* -------------nav Start-------------- */
+     /* -------------nav end-------------- */
+     /* -------------banner start-------------- */
+     /* -------------banner end-------------- */
+     /* -------------about start-------------- */
+     #about-part .round {
+        width: 270px;
+        height: 270px;
+    }
+    #about-part .round .img {
+        width: 230px;
+        height: 230px;
+    }
+    #about-part .item1 p {
+        width: 229px;
+    }
+    #about-part .item2 {
+        text-align: center;
+    }
+    #about-part .item2 p {
+        width: auto;
+    }
+    #about-part .item3 {
+        text-align: center;
+    }
+    #about-part .item3 p {
+        width: auto;
+    }
+    #about-part .item2 {
+         margin-top: 0px
+    }
+    #about-part .item3 {
+        margin-top: 0px
+    }
+    #about-part .item2 i {
+        right: -48px;
+    }
+    #about-part .item3 i {
+        left: -48px;
+    }
+     /* -------------about end-------------- */
+     /* -------------port start-------------- */
+     /* -------------port end-------------- */
+     /* -------------service start-------------- */
+     #service-part .line {
+        height: 988px;
+    }
+     /* -------------service end-------------- */
+     /* -------------testi start-------------- */
+    #testi-part .line {
+        position: absolute;
+        left: 96px;
+    }
+    #testi-part .details p {
+        width: auto;
+    }
+     /* -------------testi end-------------- */
+     /* -------------price start-------------- */
+     /* -------------price end-------------- */
+     /* -------------counter start-------------- */
+     /* -------------counter end-------------- */
+     /* -------------team  start-------------- */
+     /* -------------team  end-------------- */
+     /* -------------sponsor  start-------------- */
+     /* -------------sponsor  end-------------- */
+     /* -------------footer  start-------------- */
+     footer .details .item p {
+        font-size: 14px;
+    }
+     /* -------------footer  end-------------- */
+}
